@@ -1,8 +1,7 @@
 package com.spring.app;
 
 import com.spring.app.game.GameRunner;
-import com.spring.app.game.MarioGame;
-import com.spring.app.game.SuperContraGame;
+import com.spring.app.game.PackmanGame;
 
 public class AppGamingBasicjava {
 
@@ -10,7 +9,8 @@ public class AppGamingBasicjava {
 
 		System.out.println("hello");
 		//var game = new MarioGame();
-		var game = new SuperContraGame();
+		//var game = new SuperContraGame();
+		var game = new PackmanGame();
 		var gameRunner = new GameRunner(game);
 		gameRunner.run();
 
